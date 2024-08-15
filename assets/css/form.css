@@ -1,0 +1,49 @@
+.hello {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #000000;
+  }
+  
+  .hello label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  .hello input[type="text"],
+  .hello input[type="email"],
+  .hello textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #f1eded;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+    background: transparent;
+  }
+  
+  .hello textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .hello button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b6bbc0;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  
+  .hello button:hover {
+    background-color: #0056b3;
+  }
+  
